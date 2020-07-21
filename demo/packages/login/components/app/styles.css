@@ -1,0 +1,25 @@
+
+.container {
+  border: 1px solid transparent;
+  margin: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+.container:hover {
+  border-color: mediumblue;
+}
+.container:after {
+  background-color: mediumblue;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  content: "login";
+  display: none;
+}
+.container:hover:after {
+  display: block;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "demo": "cd demo && NODE_ENV=development parcel index.html",
+    "clean": "cd demo && rimraf .cache dist"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "parcel": "1.12.4",
+    "postcss-modules": "3.2.0",
+    "typescript": "3.9.7",
+    "rimraf": "3.0.2"
+  }
+}

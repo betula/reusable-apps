@@ -1,0 +1,29 @@
+
+.container {
+  padding: 20px;
+}
+
+.item {
+  background-color: #DDD;
+  margin: 7px 0;
+}
+.item:hover {
+  opacity: .8;
+}
+.item:after {
+  content: "\a0";
+}
+.item:nth-child(1) {
+  width: 160px;
+}
+.item:nth-child(2) {
+  width: 160px;
+}
+
+.container button {
+  background: #EEE;
+  border-width: 1px;
+  outline: none;
+  width: 50px;
+  margin-left: 110px;
+}

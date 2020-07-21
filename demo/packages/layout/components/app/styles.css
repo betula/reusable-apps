@@ -1,0 +1,29 @@
+
+.container {
+  outline: 1px solid transparent;
+  margin: -1px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container:hover {
+  outline-color: maroon;
+}
+.container:after {
+  background-color: maroon;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  content: "layout";
+  display: none;
+}
+.container:hover:after {
+  display: block;
+}
+
+.slot {
+  flex-grow: 1;
+  border: 1px solid #EEE;
+  margin: -1px;
+}

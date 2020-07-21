@@ -1,0 +1,30 @@
+
+.container {
+  padding: 20px;
+}
+
+.item {
+  background-color: #DDD;
+  margin: 7px 0;
+}
+.item:hover {
+  opacity: .8;
+}
+.item:after {
+  content: "\a0";
+}
+.item:nth-child(1) {
+  width: 130px;
+}
+.item:nth-child(2) {
+  width: 70px;
+}
+.item:nth-child(3) {
+  width: 90px;
+}
+.item:nth-child(4) {
+  width: 120px;
+}
+.item:nth-child(5) {
+  width: 110px;
+}

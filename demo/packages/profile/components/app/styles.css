@@ -1,0 +1,22 @@
+
+.container {
+  border: 1px solid transparent;
+  margin: -1px;
+  position: relative;
+  display: flex;
+}
+.container:hover {
+  border-color: mediumslateblue;
+}
+.container:after {
+  background-color: mediumslateblue;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  content: "profile";
+  display: none;
+}
+.container:hover:after {
+  display: block;
+}

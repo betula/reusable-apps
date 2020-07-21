@@ -1,0 +1,6 @@
+# lerna
+lerna-debug.log
+
+# parcel
+dist
+.cache
